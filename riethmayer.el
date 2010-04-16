@@ -92,7 +92,7 @@
 (require 'gist)
 
 ;; Color Themes
-(add-to-list 'load-path (concat dotfiles-dir "/vendor/color-theme"))
+(add-to-list 'load-path (concat dotfiles-dir "vendor/color-theme"))
 (require 'color-theme)
 (color-theme-initialize)
 
@@ -102,4 +102,8 @@
 (set-face-font 'default "-apple-inconsolata-medium-r-normal--16-0-72-72-m-0-iso10646-1")
 (color-theme-twilight)
 
+(load (concat dotfiles-dir "riethmayer/rvm.el"))
+;; 'load-path (concat dotfiles-dir "vendor/rvm.el"))
+(require 'rvm)
+(rvm-use-default)
 (server-start)
