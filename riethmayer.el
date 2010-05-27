@@ -79,7 +79,6 @@
 (require 'topfunky/rinari)
 (add-to-list 'load-path (concat dotfiles-dir "/vendor/rspec-mode"))
 (require 'rspec-mode)
-
 ;; (require 'topfunky/applescript)
 ;; (require 'topfunky/org)
 (require 'topfunky/textile)
@@ -90,6 +89,12 @@
 
 ;; gist
 (require 'gist)
+;; javascript
+
+(autoload #'espresso-mode "espresso" "Start espresso-mode" t)
+(add-to-list 'auto-mode-alist '("\\.js$" . espresso-mode))
+(add-to-list 'auto-mode-alist '("\\.json$" . espresso-mode))
+
 
 ;; Color Themes
 (add-to-list 'load-path (concat dotfiles-dir "vendor/color-theme"))
@@ -104,6 +109,7 @@
 
 (load (concat dotfiles-dir "riethmayer/rvm.el"))
 ;; 'load-path (concat dotfiles-dir "vendor/rvm.el"))
+(setenv "LUA_PATH" "?.lua;/Users/riethmayer/Projects/uni/oose10/code/util/?.lua")
 (require 'rvm)
 (rvm-use-default)
 (server-start)

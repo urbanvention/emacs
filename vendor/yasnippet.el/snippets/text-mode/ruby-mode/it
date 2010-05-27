@@ -1,5 +1,6 @@
-#name : it "..." do
+#name : it - rspec
+#group : general
 # --
-it "$1" do
+it "should $1" do
   $0
 end

@@ -1,0 +1,8 @@
+#name : it - rspec like for lua
+#group : general
+# --
+----------------------------------------------------------------------------------
+it("should $1",
+   function()
+      return $0
+   end)

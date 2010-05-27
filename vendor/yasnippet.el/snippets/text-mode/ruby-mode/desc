@@ -1,6 +1,6 @@
-#name : desc "..." task :name do ... end
+#name : describe - rspec
+#group : general
 # --
-desc "${1:description}"
-task ${2:name} do
+describe "$1" do
   $0
 end

@@ -1,5 +1,6 @@
-#name : def ... end
+#name : def method
+#group : definitions
 # --
-def ${1:name}
+def ${1:foo}
   $0
 end

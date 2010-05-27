@@ -1,0 +1,4 @@
+#name : edit_link
+#group : rails
+# --
+link_to "${1:Edit}", edit_${2:item}_path($2)

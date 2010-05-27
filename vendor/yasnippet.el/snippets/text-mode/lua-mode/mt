@@ -1,0 +1,6 @@
+#name : mt - metatable definition
+#group : general
+# --
+local meta= {
+      __index = function(self,key) $1 end
+}

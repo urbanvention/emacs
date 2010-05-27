@@ -8,21 +8,21 @@
                                    ;;'js2-mode
                                    'css-mode
                                ;; To submit:
-;;;                                "magit"
-;;;                                "paredit"
+                                "magit"
+                                "paredit"
 ;;;                                "clojure-mode"
-;;;                                "yaml"
+                                "yaml"
 ;;;                                "haml"
 ;;;                                "sass"
 ;;;                                "cheat"
-;;;                                "gist"
+                                "gist"
 ;;;                                "html-fontify"
 ;;;                                "color-theme"
 ;;;                                "color-theme-zenburn"
 ;;;                                "color-theme-vivid-chalk"
                                ;; Complicated ones:
 ;;;                                "nxhtml"
-;;;                                "rinari"
+                                "rinari"
 ;;;                                "jabber"
 ;;;                                "slime"
 ;;;                                "swank-clojure"

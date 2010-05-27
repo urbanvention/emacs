@@ -1,0 +1,6 @@
+#name : fun - function definition
+#group : general
+# --
+function(${1:self,key})
+  $0
+end
