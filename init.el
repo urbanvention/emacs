@@ -55,10 +55,12 @@
 ;; You can keep system- or user-specific customizations here:
 
 (setq system-specific-config (concat dotfiles-dir system-name ".el")
-      user-specific-config (concat dotfiles-dir user-login-name ".el"))
+      user-specific-config (concat dotfiles-dir user-login-name ".el")
+      local-specific-config (concat dotfiles-dir "local.el"))
 
 (if (file-exists-p system-specific-config) (load system-specific-config))
 (if (file-exists-p user-specific-config) (load user-specific-config))
+(if (file-exists-p local-specific-config) (load local-specific-config))
 
 ;; Benchmarking
 (message "My .emacs loaded in %ds"

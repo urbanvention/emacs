@@ -15,8 +15,11 @@ Rename the directory riethmayer to foo and the file riethmayer.el to foo.el.
 I added some font styles in riethmayer.el. Download them and use them if you like.
 You might like the color theme commented out.
 
+# Machine specific settings
+
+Create a local.el file in .emacs.d and add your machine specific settings.
+For example, mine looks like this: [My local.el](http://gist.github.com/415995)
+
 # Credits
 
 Thanks to topfunky and technomancy for this fork.
-
-

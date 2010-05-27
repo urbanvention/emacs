@@ -95,21 +95,4 @@
 (add-to-list 'auto-mode-alist '("\\.js$" . espresso-mode))
 (add-to-list 'auto-mode-alist '("\\.json$" . espresso-mode))
 
-
-;; Color Themes
-;; (add-to-list 'load-path (concat dotfiles-dir "vendor/color-theme"))
-;; (require 'color-theme)
-;; (color-theme-initialize)
-
-;; Activate theme
-;; (load (concat dotfiles-dir user-login-name "/color-theme-twilight.el"))
-;; ;; Normal is 30pt. Screencastable is 26pt.
-;; (set-face-font 'default "-apple-inconsolata-medium-r-normal--16-0-72-72-m-0-iso10646-1")
-;; (color-theme-twilight)
-
-;; (load (concat dotfiles-dir user-login-name "/rvm.el"))
-;; ;; 'load-path (concat dotfiles-dir "vendor/rvm.el"))
-;; (setenv "LUA_PATH" "?.lua;/Users/riethmayer/Projects/uni/oose10/code/util/?.lua")
-;; (require 'rvm)
-;; (rvm-use-default)
 (server-start)
