@@ -1,4 +1,0 @@
-#name : respond_with (for controller actions rails 3)
-#group : responder
-# --
-respond_with(${1:model}${2, :location => {$3:model}_path)

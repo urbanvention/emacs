@@ -24,6 +24,12 @@
 (yas/initialize)
 (yas/load-directory (concat dotfiles-dir "/vendor/yasnippet.el/snippets"))
 
+;;My snippets
+
+;; Develop and keep personal snippets under ~/.emacs.d/mysnippets
+(setq yas/root-directory "~/emacs.d/mysnippets")
+;; Load the snippets
+(yas/load-directory yas/root-directory)
 ;; TextMate
 (add-to-list 'load-path (concat dotfiles-dir "/vendor/textmate.el"))
 (require 'textmate)

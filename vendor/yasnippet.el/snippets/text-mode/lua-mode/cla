@@ -1,4 +1,0 @@
-#name : cla - Class definition for the LOS language
-#group : general
-# --
-Class{'$1'$2}$0

@@ -1,4 +1,0 @@
-#name : destroy_link
-#group : rails
-# --
-link_to "${1:delete}", ${2:item}_path($2), :confirm => 'Are you sure?', :method => :delete

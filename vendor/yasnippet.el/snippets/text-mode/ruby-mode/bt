@@ -1,6 +1,0 @@
-#name : belongs_to
-#group : definitions
-# --
-belongs_to :${1:model_name}, :class_name => '${1:$(capitalize text)}' :foreign_key => "${2:foreign}_id",
-             ${3::conditions => 'discounts > #{payments_count}'}
-$0

@@ -1,4 +1,0 @@
-#name : new_link
-#group : rails
-# --
-link_to "${1:new}", new_${2:item}_path

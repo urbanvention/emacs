@@ -1,6 +1,0 @@
-#name : def method
-#group : definitions
-# --
-def ${1:foo}
-  $0
-end

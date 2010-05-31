@@ -1,4 +1,0 @@
-#name : setmetatable
-#group : general
-# --
-setmetatable($1,$2)$0

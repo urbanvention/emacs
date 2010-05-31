@@ -1,6 +1,0 @@
-#name : has_many
-#group : definitions
-# --
-has_many :${1:model}s, :${2:dependent => :${3:destroy}}
-$0
-

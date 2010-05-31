@@ -1,8 +1,0 @@
-#name : def test_ assert false end
-#group : definitions
-# --
-def test_${1:truth}
-  ${2:assert false}
-end
-
-$0

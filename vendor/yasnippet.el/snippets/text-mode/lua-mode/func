@@ -1,7 +1,0 @@
-#name : fun - function definition with comment line
-#group : general
-# --
-----------------------------------------------------------------------------------
-function ${1:method_name}()
-  $0
-end
