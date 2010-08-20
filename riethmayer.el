@@ -1,4 +1,5 @@
 ;; Full screen toggle
+
 (defun toggle-fullscreen ()
   (interactive)
   (set-frame-parameter nil 'fullscreen (if (frame-parameter nil 'fullscreen)
@@ -6,7 +7,7 @@
                                          'fullboth)))
 
 (global-set-key (kbd "M-n") 'toggle-fullscreen)
-
+(global-set-key (kbd "C-z") 'yank)
 ;; Keyboard
 ;; Mac-friendly
 (global-set-key (kbd "M-s") 'save-buffer)
@@ -83,18 +84,20 @@
 ;; dabbrev-case-fold-search for case-sensitive search
 
 (require 'topfunky/rinari)
-(add-to-list 'load-path (concat dotfiles-dir "/vendor/rspec-mode"))
+(add-to-list 'load-path (concat dotfiles-dir "vendor/rspec-mode"))
 (require 'rspec-mode)
 ;; (require 'topfunky/applescript)
 ;; (require 'topfunky/org)
 (require 'topfunky/textile)
 (require 'topfunky/markdown)
-(require 'topfunky/haml)
+(require 'topfunky/haml)                ;
 ;; (require 'topfunky/xcode)
 (require 'topfunky/keyboard)
 
 ;; gist
 (require 'gist)
+
+
 ;; javascript
 
 (autoload #'espresso-mode "espresso" "Start espresso-mode" t)
