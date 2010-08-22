@@ -8,6 +8,7 @@
 
 (global-set-key (kbd "M-n") 'toggle-fullscreen)
 (global-set-key (kbd "C-z") 'yank)
+(global-set-key (kbd "C-x C-o") 'other-frame)
 ;; Keyboard
 ;; Mac-friendly
 (global-set-key (kbd "M-s") 'save-buffer)
